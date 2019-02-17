@@ -2,6 +2,7 @@ def oxford_comma(array)
   if array.count == 2 
     array.join(" and ")
   elsif array.count == 3
+    for (int i; i <= array.count; i++)
     
   elsif array.count > 3
     array.join(", ")
